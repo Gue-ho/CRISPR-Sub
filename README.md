@@ -1,7 +1,6 @@
 # CRISPR-Sub
 
 Usange
-_______
 
 CRISPR-Sub can run with:
 
