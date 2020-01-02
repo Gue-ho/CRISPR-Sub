@@ -1,5 +1,15 @@
 # CRISPR-Sub
 
+Usange
+_______
+
+CRISPR-Sub can run with:
+
+    python3 nt_substitution.py {reference sequence} {target sequence} {fastqjoin file 1} {fastqjoin file 2} {output file}
+
+test code:
+
+    python3 nt_substitution.py aggggataccaccgatctctgtgatctgcgactgttttctctgtctgtgcaggtccacagtatggcattgcccgtgaagatgtggtcctgaatcgtattcttggggaaggcttttttggggaggtctatgaaggtgtctacacaaatcatgtgagttctaggatcttcccttacactcctcttccacatgtctgtagggtgagacagagctcgaa GGTCCTGAATCGTATTCTTGggg test.fastqjoin test_con.fastqjoin output
 
 # License
 -------
