@@ -8,8 +8,6 @@ CIRSPR-Sub needs several python modules:
     xlsxwriter, scipy, numpy
 
 
-xlsxwriter and numpy can be installed by anaconda3
-And scipy can be install by pip
 
 # Usage
 
