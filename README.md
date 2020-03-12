@@ -3,7 +3,7 @@
 CRISPR-Cas9 induces DNA cleavages at desired target sites in a guide RNA-dependent manner; DNA editing occurs through the resulting activity of DNA repair processes including non-homologous end joining (NHEJ), which is dominant in mammalian cells. NHEJ repair frequently causes small insertions and deletions (indels) near DNA cleavage sites but only rarely causes nucleotide substitutions. High-throughput sequencing is the primary means of assessing indel and substitution frequencies in bulk populations of cells in the gene editing field. However, it is difficult to detect bona fide substitutions, which are embedded among experimentally-induced substitution errors, in high-throughput sequencing data. Here, we developed a novel analysis method, named CRISPR-Sub, to statistically detect Cas9-mediated substitutions in high-throughput sequencing data by comparing Mock- and CRISPR-treated samples.
 
 
-CIRSPR-Sub needs several python modules:
+CIRSPR-Sub needs python3 and below module in python3:
     
     xlsxwriter, scipy, numpy
 
