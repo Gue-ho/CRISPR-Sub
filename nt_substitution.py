@@ -50,7 +50,7 @@ class NtSubstitution:
 					e_num = self.end_pos - len(self.wt_seq)
 					end_pos = len(self.wt_seq)
 
-				self.s_seq = self.wt_seq[i + 17 - self.filt_r: i + 17 + + self.filt_r]
+				self.s_seq = self.wt_seq[i + 17 - self.filt_r: i + 17 + self.filt_r]
 				self.seq_range = self.wt_seq[self.start_pos: self.end_pos]
 				break
 
