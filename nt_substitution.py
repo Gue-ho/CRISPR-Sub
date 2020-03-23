@@ -106,9 +106,10 @@ class NtSubstitution:
 				line_n += 1
 				if line_n%4 != 2:
 					continue
-
+				
 				self.cnt_dict[obj]['all'] += 1
-
+				
+				if line.find('N') != -1: continue
 				for_check = False
 				back_check = False
 
